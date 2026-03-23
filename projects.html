@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Shalin Raj</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand">SR<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container section-enter">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1: US Accident Analysis -->
+            <div class="glass-card project-card">
+                <div class="project-content">
+                    <h3>US Accident Analysis</h3>
+                    <p class="project-desc">A deep-dive data analysis of US accidents from 2016 to 2023, identifying key geospatial trends and temporal risk factors to support preventive measures.</p>
+                    
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <i class="fas fa-chart-line"></i> 
+                            <span>30–60% seasonal spikes identified</span>
+                        </div>
+                        <div class="metric">
+                            <i class="fas fa-clock"></i> 
+                            <span>40% peak-hour accidents correlation</span>
+                        </div>
+                        <div class="metric">
+                            <i class="fas fa-city"></i> 
+                            <span>3–5× urban density impact</span>
+                        </div>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Folium</span>
+                        <span>Matplotlib</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="btn btn-primary btn-sm">
+                            <i class="fab fa-linkedin"></i> View on LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="placeholder-img">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Geospatial Heatmap Placeholder</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Mental Health Simulator -->
+            <div class="glass-card project-card reverse">
+                <div class="project-content">
+                    <h3>Mental Health Simulator</h3>
+                    <p class="project-desc">An interactive console-based simulator designed to track mood and emotional patterns, providing real-time relaxation activities and session persistence.</p>
+                    
+                    <div class="project-features">
+                        <h4>Core Features</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Mood tracking system covering 10+ emotions</li>
+                            <li><i class="fas fa-check-circle"></i> File handling for user session data persistence</li>
+                            <li><i class="fas fa-check-circle"></i> Real-time relaxation module generation</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="dsa-tag">Doubly Linked List (Session Tracking)</span>
+                        <span class="dsa-tag">Queue (Activity Scheduling)</span>
+                        <span>C++</span>
+                    </div>
+                    
+                    <div class="code-snippet">
+<pre><code>// Data structure for session tracking
+struct SessionNode {
+    string mood;
+    int stressLevel;
+    SessionNode* prev;
+    SessionNode* next;
+};</code></pre>
+                    </div>
+                </div>
+                <div class="project-visual multi-img">
+                    <div class="placeholder-img small">
+                        <i class="fas fa-terminal"></i>
+                        <p>Terminal Output (Page 22)</p>
+                    </div>
+                    <div class="placeholder-img small">
+                        <i class="fas fa-chart-bar"></i>
+                        <p>Progress Display (Page 23)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
