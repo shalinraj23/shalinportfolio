@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalin Raj | Data Science Portfolio</title>
+    <meta name="description" content="Portfolio of Shalin Raj, Aspiring Data Scientist specializing in analytics, machine learning, and problem solving.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons for elegant scalable icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <a href="#home" class="logo">SR.</a>
+        
+        <div class="menu-icon" id="menu-icon">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#training">Training</a>
+            <a href="#certs">Certifications</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span class="highlight">Shalin Raj</span></h1>
+            <h3 class="text-animation">Aspiring <span id="typewriter"></span></h3>
+            <p>Data Science Intern with experience in analytics, machine learning, and real-world problem solving using Python and C++.</p>
+            
+            <div class="btn-group">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#resume" class="btn btn-outline">Download Resume</a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <img src="profile.jpeg" alt="Shalin Raj Headshot" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <!-- Technical Skills -->
+            <div class="skill-category fade-in">
+                <h3><i class='bx bx-code-alt'></i> Technical Skills</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python (Pandas, NumPy, EDA)</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C++ (OOP, DSA)</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Data Visualization (Power BI, Tableau, Matplotlib)</span>
+                        </div>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & DBMS -->
+            <div class="skill-category fade-in">
+                <h3><i class='bx bx-wrench'></i> Tools & Databases</h3>
+                <div class="skill-tags">
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Microsoft Excel</span>
+                    <span class="tag">DBMS</span>
+                    <span class="tag">Git & GitHub</span>
+                    <span class="tag">Jupyter</span>
+                </div>
+            </div>
+
+            <!-- Core Concepts -->
+            <div class="skill-category fade-in">
+                <h3><i class='bx bx-brain'></i> Core Concepts</h3>
+                <div class="skill-tags">
+                    <span class="tag">Data Structures & Algorithms</span>
+                    <span class="tag">Machine Learning Basics</span>
+                    <span class="tag">Geospatial Analysis</span>
+                    <span class="tag">Predictive Modeling</span>
+                    <span class="tag">Statistics</span>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill-category fade-in">
+                <h3><i class='bx bx-user-voice'></i> Soft Skills</h3>
+                <div class="skill-tags alt-tags">
+                    <span class="tag">Leadership</span>
+                    <span class="tag">Problem Solving</span>
+                    <span class="tag">Time Management</span>
+                    <span class="tag">Communication</span>
+                    <span class="tag">Teamwork</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="heading">Featured <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card fade-in">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>US Accident Analysis</h3>
+                        <div class="project-links">
+                            <a href="#" class="icon-link"><i class='bx bxl-github'></i></a>
+                            <a href="#" class="icon-link"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <p class="project-desc">Analyzed millions of accident records (2016–2023) to uncover nationwide patterns.</p>
+                    
+                    <ul class="project-bullets">
+                        <li><i class='bx bx-check-circle'></i> Revealed 30–60% seasonal spikes during specific months.</li>
+                        <li><i class='bx bx-check-circle'></i> Identified that 40% of accidents occur during peak hours.</li>
+                        <li><i class='bx bx-check-circle'></i> Found 3–5x higher crash density in urban areas.</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Folium</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card fade-in">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3>Mental Health Tracking System</h3>
+                        <div class="project-links">
+                            <a href="#" class="icon-link"><i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                    <p class="project-desc">A robust console-based application to monitor user mood and mental well-being over time.</p>
+                    
+                    <ul class="project-bullets">
+                        <li><i class='bx bx-check-circle'></i> Enables mood tracking across 10+ distinct categories.</li>
+                        <li><i class='bx bx-check-circle'></i> Utilizes persistent storage for long-term data analysis.</li>
+                        <li><i class='bx bx-check-circle'></i> Built with real-time modules capturing immediate inputs.</li>
+                    </ul>
+
+                    <div class="tech-stack">
+                        <span>C++ (OOP)</span>
+                        <span>STL</span>
+                        <span>File I/O</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training / Internship Section -->
+    <section id="training" class="training fade-in">
+        <h2 class="heading">Training & <span>Experience</span></h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Data Science Intern</h3>
+                    <h4>SkillCraft Technology</h4>
+                    <span class="duration"><i class='bx bx-calendar'></i> Jun - Jul 2025</span>
+                    <p>Contributed to core data analysis and predictive modeling workflows during the internship.</p>
+                    <ul class="work-list">
+                        <li>Customer profiling to segment target demographics accurately.</li>
+                        <li>EV market analysis identifying key growth regions and adoption barriers.</li>
+                        <li>Predictive modeling and geospatial risk analysis.</li>
+                    </ul>
+                    <div class="tech-stack sm-stack">
+                        <span>Python</span>
+                        <span>Machine Learning</span>
+                        <span>Visualization Tools</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certs" class="certs fade-in">
+        <h2 class="heading">My <span>Certifications</span></h2>
+        
+        <div class="cert-grid">
+            <div class="cert-card">
+                <i class='bx bx-code-block cert-icon'></i>
+                <div class="cert-info">
+                    <h3>C++ & DSA</h3>
+                    <p>Cipher Schools</p>
+                </div>
+                <a href="#" class="btn-sm">View <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+            <div class="cert-card">
+                <i class='bx bxl-git cert-icon'></i>
+                <div class="cert-info">
+                    <h3>Git & GitHub</h3>
+                    <p>Cipher Schools</p>
+                </div>
+                <a href="#" class="btn-sm">View <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+            <div class="cert-card">
+                <i class='bx bx-network-chart cert-icon'></i>
+                <div class="cert-info">
+                    <h3>Computer Networking</h3>
+                    <p>Coursera</p>
+                </div>
+                <a href="#" class="btn-sm">View <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+
+            <div class="cert-card">
+                <i class='bx bx-microchip cert-icon'></i>
+                <div class="cert-info">
+                    <h3>OS & Hardware</h3>
+                    <p>Coursera</p>
+                </div>
+                <a href="#" class="btn-sm">View <i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements fade-in">
+        <h2 class="heading">Key <span>Achievements</span></h2>
+
+        <div class="achieve-grid">
+            <div class="achieve-card">
+                <div class="icon-box"><i class='bx bx-trophy'></i></div>
+                <h3>Hackathons</h3>
+                <p>Active participant in multiple national-level coding hackathons solving real-world challenges.</p>
+            </div>
+            
+            <div class="achieve-card">
+                <div class="icon-box"><i class='bx bx-group'></i></div>
+                <h3>Team Leader, E-Cell</h3>
+                <p>Spearheaded entrepreneurial initiatives and led a team of students in organizing campus startup events.</p>
+            </div>
+
+            <div class="achieve-card">
+                <div class="icon-box"><i class='bx bx-heart'></i></div>
+                <h3>NGO Volunteer</h3>
+                <p>Dedicated time to community service operations, teaching fundamental computer skills to unprivileged youth.</p>
+            </div>
+
+            <div class="achieve-card">
+                <div class="icon-box"><i class='bx bx-microphone'></i></div>
+                <h3>Leadership Exposure</h3>
+                <p>Pioneered discussions and improved communication skills through active public speaking and event hosting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume fade-in">
+        <div class="resume-box">
+            <h2 class="heading">Check out my <span>Resume</span></h2>
+            <p>Get a comprehensive view of my academic coursework, technical capabilities, projects, and work history.</p>
+            <div class="resume-preview">
+                <i class='bx bxs-file-pdf'></i>
+                <div class="resume-details">
+                    <h3>Shalin_Raj_Resume.pdf</h3>
+                    <span>PDF Document • 1.2 MB</span>
+                </div>
+            </div>
+            <a href="#" class="btn" download>👉 Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <h2 class="heading">Get In <span>Touch</span></h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>I'm currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                
+                <div class="info-item">
+                    <i class='bx bx-envelope'></i>
+                    <a href="mailto:shalin@example.com">shalinraj@example.com</a>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-phone'></i>
+                    <a href="tel:+1234567890">+91 98765 43210</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="social-icon"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+
+            <form action="#" class="contact-form">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 by Shalin Raj | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Vanilla Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
