@@ -109,11 +109,31 @@
                         </a>
                     </div>
                 </div>
-                <div class="project-visual" style="border: none; background: transparent; padding: 0;">
-                    <div style="width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);">
+                <div class="project-visual" style="border: none; background: transparent; padding: 0; position: relative;">
+                    <div id="code-container" style="width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 0 20px rgba(0, 229, 255, 0.2); height: 180px; transition: height 0.4s ease;">
                         <script src="//onlinegdb.com/embed/js/ju0NBh4_B?theme=dark"></script>
                     </div>
+                    <div id="code-overlay" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: linear-gradient(to bottom, rgba(3,3,5,0), rgba(3,3,5,0.95)); display: flex; justify-content: center; align-items: flex-end; padding-bottom: 15px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; pointer-events: none;">
+                        <button onclick="toggleCode()" id="toggle-code-btn" class="btn btn-primary btn-sm" style="pointer-events: auto;">Show Full Code</button>
+                    </div>
                 </div>
+                <script>
+                    function toggleCode() {
+                        const container = document.getElementById('code-container');
+                        const overlay = document.getElementById('code-overlay');
+                        const btn = document.getElementById('toggle-code-btn');
+                        
+                        if (container.style.height === '180px' || !container.style.height) {
+                            container.style.height = '600px';
+                            overlay.style.background = 'transparent';
+                            btn.innerText = 'Hide Code';
+                        } else {
+                            container.style.height = '180px';
+                            overlay.style.background = 'linear-gradient(to bottom, rgba(3,3,5,0), rgba(3,3,5,0.95))';
+                            btn.innerText = 'Show Full Code';
+                        }
+                    }
+                </script>
             </div>
 
         </div>
