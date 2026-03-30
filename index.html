@@ -17,17 +17,17 @@
     <div id="particles-js"></div>
     
     <nav class="navbar">
-        <a href="index.html" class="nav-brand">SR<span>.</span></a>
+        <a href="#home" class="nav-brand">SR<span>.</span></a>
         <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="internship.html">Internship</a></li>
-            <li><a href="certifications.html">Certifications</a></li>
-            <li><a href="extracurricular.html">Extra Curricular Activities</a></li>
-            <li><a href="workshop.html">Workshops</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#internship">Virtual Internship</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#extracurricular">Extra Curricular Activities</a></li>
+            <li><a href="#workshop">Workshops</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger">
             <div class="line1"></div>
@@ -38,7 +38,7 @@
 
     <!-- Main Content for Home Navigation -->
     <main class="container section-enter">
-        <section class="landing-section">
+        <section id="home" class="landing-section">
             <div class="hero-content">
                 <span class="greeting">Hello, I'm</span>
                 <h1 class="name">Shalin Raj</h1>
@@ -47,10 +47,10 @@
                     Data Science Intern with experience in analytics, machine learning, and geospatial data analysis. Passionate about solving real-world problems using data and algorithms.
                 </p>
                 <div class="hero-actions">
-                    <a href="projects.html" class="btn btn-primary">
+                    <a href="#projects" class="btn btn-primary">
                         <i class="fas fa-project-diagram"></i> View Projects
                     </a>
-                    <a href="resume.html" class="btn btn-secondary">
+                    <a href="#resume" class="btn btn-secondary">
                         <i class="fas fa-file-download"></i> Download Resume
                     </a>
                 </div>
@@ -62,6 +62,363 @@
             </div>
         </section>
     </main>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="container section-enter">
+
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="skills-grid">
+            <!-- Programming -->
+            <div class="glass-card skill-category">
+                <h3><i class="fas fa-code"></i> Programming</h3>
+                <div class="skill-list">
+                    <span class="skill-item"><i class="fab fa-python"></i> Python</span>
+                    <span class="skill-item"><i class="fas fa-terminal"></i> C++</span>
+                </div>
+            </div>
+
+            <!-- Data & Analytics -->
+            <div class="glass-card skill-category">
+                <h3><i class="fas fa-chart-line"></i> Data & Analytics</h3>
+                <div class="skill-list">
+                    <span class="skill-item"><i class="fas fa-database"></i> Pandas</span>
+                    <span class="skill-item"><i class="fas fa-square-root-alt"></i> NumPy</span>
+                    <span class="skill-item"><i class="fas fa-search-plus"></i> EDA</span>
+                    <span class="skill-item"><i class="fas fa-broom"></i> Data Cleaning</span>
+                    <span class="skill-item"><i class="fas fa-globe-americas"></i> Geospatial Analysis</span>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="glass-card skill-category">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skill-list">
+                    <span class="skill-item"><i class="fas fa-chart-pie"></i> Power BI</span>
+                    <span class="skill-item"><i class="fas fa-chart-bar"></i> Tableau</span>
+                    <span class="skill-item"><i class="fas fa-database"></i> MySQL</span>
+                    <span class="skill-item"><i class="fas fa-table"></i> Excel</span>
+                </div>
+            </div>
+
+            <!-- Core Concepts -->
+            <div class="glass-card skill-category">
+                <h3><i class="fas fa-brain"></i> Core Concepts</h3>
+                <div class="skill-list">
+                    <span class="skill-item"><i class="fas fa-project-diagram"></i> DSA</span>
+                    <span class="skill-item"><i class="fas fa-cubes"></i> OOP</span>
+                    <span class="skill-item"><i class="fas fa-bolt"></i> Algorithm Optimization</span>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="container section-enter">
+
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <!-- Project 1: US Accident Analysis -->
+            <div class="glass-card project-card">
+                <div class="project-content">
+                    <h3>US Accident Analysis</h3>
+                    <p class="project-desc">A deep-dive data analysis of US accidents from 2016 to 2023, identifying key geospatial trends and temporal risk factors to support preventive measures.</p>
+                    
+                    <div class="project-metrics">
+                        <div class="metric">
+                            <i class="fas fa-chart-line"></i> 
+                            <span>30–60% seasonal spikes identified</span>
+                        </div>
+                        <div class="metric">
+                            <i class="fas fa-clock"></i> 
+                            <span>40% peak-hour accidents correlation</span>
+                        </div>
+                        <div class="metric">
+                            <i class="fas fa-city"></i> 
+                            <span>3–5× urban density impact</span>
+                        </div>
+                    </div>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Folium</span>
+                        <span>Matplotlib</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://www.linkedin.com/posts/shalinraj2053_datascience-python-geospatialanalysis-activity-7347329517373296640-wmlL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEBu5ZkBzjDgsywxZ96beDk-By7oFnFa3S8" target="_blank" class="btn btn-primary btn-sm">
+                            <i class="fab fa-linkedin"></i> View on LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual">
+                    <div class="placeholder-img">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Geospatial Heatmap Placeholder</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Mental Health Simulator -->
+            <div class="glass-card project-card reverse">
+                <div class="project-content">
+                    <h3>Mental Health Simulator</h3>
+                    <p class="project-desc">An interactive console-based simulator designed to track mood and emotional patterns, providing real-time relaxation activities and session persistence.</p>
+                    
+                    <div class="project-features">
+                        <h4>Core Features</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Mood tracking system covering 10+ emotions</li>
+                            <li><i class="fas fa-check-circle"></i> File handling for user session data persistence</li>
+                            <li><i class="fas fa-check-circle"></i> Real-time relaxation module generation</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <span class="dsa-tag">Doubly Linked List (Session Tracking)</span>
+                        <span class="dsa-tag">Queue (Activity Scheduling)</span>
+                        <span>C++</span>
+                    </div>
+
+                    <div class="project-links" style="margin-top: 1.5rem;">
+                        <a href="https://onlinegdb.com/ju0NBh4_B" target="_blank" class="btn btn-primary btn-sm">
+                            <i class="fas fa-play"></i> Run on OnlineGDB
+                        </a>
+                    </div>
+                </div>
+                <div class="project-visual" style="border: none; background: transparent; padding: 0;">
+                    <div style="width: 100%; border-radius: 12px; overflow: hidden; box-shadow: 0 0 20px rgba(0, 229, 255, 0.2);">
+                        <script src="//onlinegdb.com/embed/js/ju0NBh4_B?theme=dark"></script>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </section>
+
+    <!-- INTERNSHIP SECTION -->
+    <section id="internship" class="container section-enter">
+
+        <h2 class="section-title">Virtual Internship Experience</h2>
+        
+        <div class="timeline">
+            <!-- Training Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-content glass-card">
+                    <h3>Data Science Intern</h3>
+                    <span class="org"><i class="fas fa-building"></i> SkillCraft Internship</span>
+                    <ul>
+                        <li>Conducted comprehensive customer profiling based on real-world datasets.</li>
+                        <li>Performed deep EV market analysis and forecasting.</li>
+                        <li>Built predictive modeling frameworks for future trends.</li>
+                        <li>Executed geospatial risk analysis using specialized tools.</li>
+                    </ul>
+                    <div style="margin: 1.5rem 0; width: 100%; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0, 229, 255, 0.2);">
+                        <iframe src="https://drive.google.com/file/d/1W5m4ObdhpxtZLe4RZBaD4OpQ86BG1RMS/preview" width="100%" height="100%" allow="autoplay" style="border: none;"></iframe>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1W5m4ObdhpxtZLe4RZBaD4OpQ86BG1RMS/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+                </div>
+            </div>
+            
+        </div>
+        </section>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="container section-enter">
+
+        <h2 class="section-title">Certifications</h2>
+        
+        <div class="cert-grid">
+            
+            <!-- Cert 1 -->
+            <div class="glass-card cert-card">
+                <i class="fas fa-code cert-icon"></i>
+                <h3>DSA with C++ (Cipher Schools)</h3>
+                <div style="margin: 1rem 0; width: 100%; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                    <iframe src="https://drive.google.com/file/d/1FhGRUJeAwojku8539yDfe-VrhiD3vqML/preview" width="100%" height="100%" allow="autoplay" style="border: none;"></iframe>
+                </div>
+                <a href="https://drive.google.com/file/d/1FhGRUJeAwojku8539yDfe-VrhiD3vqML/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+            </div>
+
+            <!-- Cert 2 -->
+            <div class="glass-card cert-card">
+                <i class="fab fa-ibm cert-icon" style="color:#0530ad;"></i>
+                <h3>IBM OS Course</h3>
+                <div style="margin: 1rem 0; width: 100%; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                    <iframe src="https://drive.google.com/file/d/18baaGxDnlNtBW7hzHtDbY3JKwxhUgUz0/preview" width="100%" height="100%" allow="autoplay" style="border: none;"></iframe>
+                </div>
+                <a href="https://drive.google.com/file/d/18baaGxDnlNtBW7hzHtDbY3JKwxhUgUz0/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+            </div>
+
+            <!-- Cert 3 -->
+            <div class="glass-card cert-card">
+                <i class="fab fa-google cert-icon" style="color:#4285F4;"></i>
+                <h3>The Bits and Bytes of Computer Networking</h3>
+                <div style="margin: 1rem 0; width: 100%; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                    <iframe src="https://drive.google.com/file/d/1YNi75Jgk_MoFOLJYpQNWNTJd3jAzNcDb/preview" width="100%" height="100%" allow="autoplay" style="border: none;"></iframe>
+                </div>
+                <a href="https://drive.google.com/file/d/1YNi75Jgk_MoFOLJYpQNWNTJd3jAzNcDb/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+            </div>
+
+            <!-- Cert 4 -->
+            <div class="glass-card cert-card">
+                <i class="fab fa-github cert-icon"></i>
+                <h3>Git & GitHub Certificate</h3>
+                <div style="margin: 1rem 0; width: 100%; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                    <iframe src="https://drive.google.com/file/d/1OwILPBQqpSygwTqk_ksVNDE5MmsY0-XC/preview" width="100%" height="100%" allow="autoplay" style="border: none;"></iframe>
+                </div>
+                <a href="https://drive.google.com/file/d/1OwILPBQqpSygwTqk_ksVNDE5MmsY0-XC/view?usp=sharing" target="_blank" class="btn btn-secondary btn-sm"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+            </div>
+
+        </div>
+        </section>
+
+    <!-- EXTRACURRICULAR SECTION -->
+    <section id="extracurricular" class="container section-enter">
+
+        <h2 class="section-title">Extra Curricular Activities</h2>
+        
+        <div class="achievement-list">
+            <!-- Item 1 -->
+            <div class="glass-card achievement-card">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h4>Team Leader – E-cell</h4>
+                    <p style="color: var(--text-muted); font-size: 0.95rem;">Led a multidisciplinary team to organize campus-level entrepreneurial events, fostering leadership and high-impact communication skills.</p>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="glass-card achievement-card">
+                <i class="fas fa-hands-helping"></i>
+                <div>
+                    <h4>NGO Volunteer Work</h4>
+                    <p style="color: var(--text-muted); font-size: 0.95rem;">Active contributor to community welfare initiatives, applying organizational and leadership skills towards social impact.</p>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="glass-card achievement-card">
+                <i class="fas fa-laptop-code"></i>
+                <div>
+                    <h4>Hackathon Participation</h4>
+                    <p style="color: var(--text-muted); font-size: 0.95rem;">Collaborated in fast-paced competitive environments to prototype data-driven solutions and applications.</p>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="glass-card achievement-card">
+                <i class="fas fa-bullhorn"></i>
+                <div>
+                    <h4>Communication & Leadership</h4>
+                    <p style="color: var(--text-muted); font-size: 0.95rem;">Consistent exposure to leadership roles, driving team synergy, effective communication, and problem-resolution.</p>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+    <!-- WORKSHOP SECTION -->
+    <section id="workshop" class="container section-enter">
+
+        <h2 class="section-title">Workshops</h2>
+        
+        <div class="achievement-highlight" style="text-align: center;">
+            <h3><i class="fas fa-award" style="color:#fbbf24; margin-right: 15px;"></i> IIT Bombay Workshop Certificate</h3>
+            <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto 1.5rem;">
+                Successfully completed the intensive workshop at IIT Bombay, demonstrating advanced problem-solving capabilities and analytical thinking in a highly competitive environment.
+            </p>
+            <a href="#" class="btn btn-primary"><i class="fas fa-medal"></i> View Details</a>
+        </div>
+        </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="container section-enter">
+
+        <h2 class="section-title">My Resume</h2>
+        
+        <div class="resume-container">
+            <a href="https://docs.google.com/document/d/1XpWH5KVPTbFQeglURkivS36m1eYrpxvz/export?format=pdf" class="btn btn-primary" download target="_blank">
+                <i class="fas fa-file-download"></i> Download Full Resume
+            </a>
+            
+            <div class="resume-preview" style="background: rgba(10, 25, 47, 0.4); padding: 10px; border-radius: 12px; box-shadow: 0 0 20px rgba(0, 229, 255, 0.15); width: 100%; height: 600px; display: flex; align-items: center; justify-content: center; border: 1px solid rgba(0, 229, 255, 0.15); backdrop-filter: blur(10px);">
+                <iframe src="https://docs.google.com/document/d/1XpWH5KVPTbFQeglURkivS36m1eYrpxvz/preview" width="100%" height="100%" style="border: none; border-radius: 8px;"></iframe>
+            </div>
+        </div>
+
+        </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="container section-enter">
+
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div class="contact-wrapper">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="glass-card contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4 style="margin-bottom: 0.2rem;">Email</h4>
+                        <a href="mailto:shalinraj@example.com" style="color: var(--text-muted); font-size: 0.95rem;">shalinraj@example.com</a>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4 style="margin-bottom: 0.2rem;">Phone</h4>
+                        <a href="tel:+919876543210" style="color: var(--text-muted); font-size: 0.95rem;">+91 98765 43210</a>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-item">
+                    <i class="fab fa-linkedin-in"></i>
+                    <div>
+                        <h4 style="margin-bottom: 0.2rem;">LinkedIn</h4>
+                        <a href="#" style="color: var(--text-muted); font-size: 0.95rem;">linkedin.com/in/shalinraj</a>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-item">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h4 style="margin-bottom: 0.2rem;">GitHub</h4>
+                        <a href="#" style="color: var(--text-muted); font-size: 0.95rem;">github.com/shalinraj</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="glass-card">
+                <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem; color: var(--accent-light);">Send a Message</h3>
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="John Doe" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="john@example.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="How can we work together?" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary" style="margin-top: 1rem;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        </section>
+
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>

@@ -51,15 +51,18 @@ for file in html_files:
         f.write(html_content)
 
 # 3. Modify achievements.html to remove the workshop section
-with open('achievements.html', 'r', encoding='utf-8') as f:
-    ach_content = f.read()
+try:
+    with open('achievements.html', 'r', encoding='utf-8') as f:
+        ach_content = f.read()
 
-start_highlight = ach_content.find('<!-- Premium Highlight -->')
-end_highlight = ach_content.find('<div class="achievement-list">')
-if start_highlight != -1 and end_highlight != -1:
-    ach_content = ach_content[:start_highlight] + ach_content[end_highlight:]
+    start_highlight = ach_content.find('<!-- Premium Highlight -->')
+    end_highlight = ach_content.find('<div class="achievement-list">')
+    if start_highlight != -1 and end_highlight != -1:
+        ach_content = ach_content[:start_highlight] + ach_content[end_highlight:]
 
-with open('achievements.html', 'w', encoding='utf-8') as f:
-    f.write(ach_content)
+    with open('achievements.html', 'w', encoding='utf-8') as f:
+        f.write(ach_content)
+except FileNotFoundError:
+    print("achievements.html not found, skipping.")
 
 print("Workshop section added successfully.")

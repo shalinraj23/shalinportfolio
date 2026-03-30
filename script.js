@@ -15,46 +15,49 @@ document.addEventListener("DOMContentLoaded", () => {
         particlesJS("particles-js", {
             "particles": {
                 "number": {
-                    "value": 40,
+                    "value": 150,
                     "density": {
                         "enable": true,
                         "value_area": 800
                     }
                 },
                 "color": {
-                    "value": ["#3b82f6", "#60a5fa", "#ffffff", "#8b5cf6"]
+                    "value": ["#ffffff", "#e2e8f0", "#cbd5e1"]
                 },
                 "shape": {
                     "type": "circle",
                 },
                 "opacity": {
-                    "value": 0.3,
+                    "value": 0.8,
                     "random": true,
                     "anim": {
                         "enable": true,
-                        "speed": 1,
+                        "speed": 0.5,
                         "opacity_min": 0.1,
                         "sync": false
                     }
                 },
                 "size": {
-                    "value": 3,
+                    "value": 2.5,
                     "random": true,
                     "anim": {
-                        "enable": false
+                        "enable": true,
+                        "speed": 2,
+                        "size_min": 0.1,
+                        "sync": false
                     }
                 },
                 "line_linked": {
-                    "enable": true,
+                    "enable": false,
                     "distance": 150,
-                    "color": "#3b82f6",
-                    "opacity": 0.2,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
                     "width": 1
                 },
                 "move": {
                     "enable": true,
-                    "speed": 1.5,
-                    "direction": "none",
+                    "speed": 1.2,
+                    "direction": "top",
                     "random": true,
                     "straight": false,
                     "out_mode": "out",
